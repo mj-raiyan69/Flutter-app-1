@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/assignment2.dart';
+import 'package:flutter_application_1/assignment3.dart';
 
 import 'package:flutter_application_1/homepage.dart';
 
@@ -25,7 +27,9 @@ theme: ThemeData.light(),
 
 debugShowCheckedModeBanner: false,
 
-home: HomePage(),
+//home: HomePage(),
+//home: Assignment2(),
+home: Assignment3()
 
 );
 
